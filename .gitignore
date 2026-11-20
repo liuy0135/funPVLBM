@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+example_output/
+validation.json
+velov_week.csv
+.DS_Store

@@ -1,0 +1,38 @@
+{
+  "numeric_checks": {
+    "regular": {
+      "log_density_error": 3.907985046680551e-14,
+      "coefficient_error": 2.942091015256665e-15,
+      "variance_error": 1.6653345369377348e-16,
+      "elbo_error": 3.410605131648481e-13,
+      "min_refinement_gain": 1.84456894203322e-09
+    },
+    "irregular": {
+      "log_density_error": 3.019806626980426e-14,
+      "coefficient_error": 3.219646771412954e-15,
+      "variance_error": 1.3877787807814457e-16,
+      "elbo_error": 1.1368683772161603e-13,
+      "min_refinement_gain": 5.7980287238024175e-12
+    },
+    "complete_data_agrees_with_existing_model": true,
+    "constrained_update_checked": true
+  },
+  "entry_point_matches_saved_verified_fit": true,
+  "selected_G": 4,
+  "selected_H": 3,
+  "maximum_parameter_difference": 0.0,
+  "absolute_ICL_difference": 0.0,
+  "small_example": {
+    "selected_G": 3,
+    "selected_H": 3,
+    "row_ARI": 1.0,
+    "column_ARI": 1.0
+  },
+  "public_data_export": {
+    "shape": [
+      2422,
+      24
+    ],
+    "maximum_difference_from_analysis_input": 9.992007221626409e-16
+  }
+}
